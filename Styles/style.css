@@ -1,0 +1,25 @@
+*,*:is(::after,::before) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    height: 100%;
+    width: 20%;
+    border: 3px solid black;
+}
+
+main {
+    height: 40%;
+    width: 30%;
+    border: 3px solid black;
+    align-self: center;
+}
